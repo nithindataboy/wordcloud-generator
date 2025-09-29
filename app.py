@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import random
 
 # Download NLTK data if not present
-nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Function to preprocess text
 def preprocess_text(text):
